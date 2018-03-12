@@ -18,6 +18,12 @@ public class AesCryptography {
 	public static final String KEY_ALGORITHM = "AES";
 	public static final String CIPHER_ALGORITHM = "AES/CBC/PKCS5Padding";	
 	
+	/**
+	 * Get the salt used to generate the key.
+	 * No special consideration about security (salt can be public).
+	 *         
+	 * @return salt
+	 */
 	private byte[] getSalt() {
 		return new byte[] {0, 1, 2, 3, 4, 5, 6, 7};
 	}

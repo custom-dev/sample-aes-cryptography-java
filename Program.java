@@ -50,6 +50,21 @@ public class Program {
 		}
 	}
 	
+	/**
+	 * Get the password used to generate the key.
+	 * 
+	 * SECURITY NOTICE
+	 * ---------------
+	 * This is a SAMPLE program.
+	 * 
+	 * For security reasons, password MUST NOT BE :
+	 * - hardcoded in program (like in this program)
+	 * - passed as a argument of a command line utility
+	 * 
+	 * Please use a secured method to retrieve the password.
+	 * 
+	 * @return password
+	 */
 	private static String getPassword() {
 		return "1234";
 	}
